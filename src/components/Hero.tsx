@@ -68,15 +68,6 @@ const Hero = () => (
             <MessageCircle className="w-5 h-5" />
             Fale pelo WhatsApp
           </a>
-          <a
-            href={WHATSAPP_URL}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center justify-center gap-2 border-2 border-gold/40 text-gold font-medium px-8 py-4 rounded-md text-lg hover:bg-gold/10 transition"
-          >
-            <HelpCircle className="w-5 h-5" />
-            Tirar minha dúvida
-          </a>
         </motion.div>
       </div>
     </div>
