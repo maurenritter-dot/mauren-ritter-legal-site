@@ -1,4 +1,5 @@
 import { Scale } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const Footer = () => (
   <footer className="bg-navy border-t border-gold/10 py-8">
@@ -10,11 +11,14 @@ const Footer = () => (
             Mauren Ritter Advocacia e Assessoria Jurídica
           </span>
         </div>
-        <div className="flex items-center gap-6 text-sm text-primary-foreground/40">
+        <div className="flex flex-wrap items-center justify-center gap-4 md:gap-6 text-sm text-primary-foreground/40">
           <span>© {new Date().getFullYear()} Todos os direitos reservados</span>
-          <a href="#" className="hover:text-gold transition-colors">
+          <Link to="/politica-de-privacidade" className="hover:text-gold transition-colors">
             Política de Privacidade
-          </a>
+          </Link>
+          <Link to="/termos-de-uso" className="hover:text-gold transition-colors">
+            Termos de Uso
+          </Link>
         </div>
       </div>
     </div>

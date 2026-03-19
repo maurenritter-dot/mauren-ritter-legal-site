@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { MessageCircle, HelpCircle, Globe } from "lucide-react";
+import { MessageCircle, Globe } from "lucide-react";
 
 const WHATSAPP_URL = "https://wa.me/5541991158368?text=Olá,%20gostaria%20de%20falar%20sobre%20um%20assunto%20jurídico.";
 
@@ -67,15 +67,6 @@ const Hero = () => (
           >
             <MessageCircle className="w-5 h-5" />
             Fale pelo WhatsApp
-          </a>
-          <a
-            href={WHATSAPP_URL}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center justify-center gap-2 border-2 border-gold/40 text-gold font-medium px-8 py-4 rounded-md text-lg hover:bg-gold/10 transition"
-          >
-            <HelpCircle className="w-5 h-5" />
-            Tirar minha dúvida
           </a>
         </motion.div>
       </div>
