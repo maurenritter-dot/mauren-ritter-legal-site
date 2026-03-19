@@ -1,5 +1,5 @@
-import { Scale } from "lucide-react";
 import { Link } from "react-router-dom";
+import logo from "@/assets/logo.png";
 
 const Footer = () => (
   <footer className="bg-navy border-t border-gold/10 py-8">
