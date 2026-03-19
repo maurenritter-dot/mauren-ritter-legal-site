@@ -79,7 +79,7 @@ const Contato = () => (
             Fale agora pelo WhatsApp
           </a>
           <p className="text-primary-foreground/40 text-sm mt-4">
-            Atendimento 100% online • Resposta rápida
+            Atendimento 100% online
           </p>
         </motion.div>
       </div>
