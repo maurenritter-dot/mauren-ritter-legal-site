@@ -20,16 +20,8 @@ const Header = () => {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-navy/95 backdrop-blur-md border-b border-gold/10">
       <div className="container mx-auto px-4 sm:px-6 flex items-center justify-between h-16 md:h-20">
-        <a href="#inicio" className="flex items-center gap-2.5">
-          <Scale className="w-7 h-7 text-gold" />
-          <div className="leading-tight">
-            <span className="block font-display text-sm md:text-base font-semibold text-primary-foreground tracking-wide">
-              Mauren Ritter
-            </span>
-            <span className="block text-[10px] md:text-xs text-gold/80 tracking-widest uppercase">
-              Advocacia & Assessoria
-            </span>
-          </div>
+        <a href="#inicio" className="flex items-center">
+          <img src={logo} alt="Mauren Ritter Advocacia e Consultoria Jurídica" className="h-10 md:h-12 w-auto" />
         </a>
 
         <nav className="hidden md:flex items-center gap-8">

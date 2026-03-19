@@ -6,10 +6,7 @@ const Footer = () => (
     <div className="container mx-auto px-4 sm:px-6">
       <div className="flex flex-col md:flex-row items-center justify-between gap-4">
         <div className="flex items-center gap-2">
-          <Scale className="w-5 h-5 text-gold/60" />
-          <span className="text-sm text-primary-foreground/50">
-            Mauren Ritter Advocacia e Assessoria Jurídica
-          </span>
+          <img src={logo} alt="Mauren Ritter Advocacia" className="h-8 w-auto opacity-60" />
         </div>
         <div className="flex flex-wrap items-center justify-center gap-4 md:gap-6 text-sm text-primary-foreground/40">
           <span>© {new Date().getFullYear()} Todos os direitos reservados</span>
