@@ -3,7 +3,7 @@ import { Globe, Zap, MessageSquare, Target, Lightbulb } from "lucide-react";
 
 const items = [
   { icon: Globe, title: "Atendimento 100% online", desc: "Resolva suas questões jurídicas de qualquer lugar do Brasil." },
-  { icon: Zap, title: "Agilidade no atendimento", desc: "Respostas rápidas e acompanhamento constante do seu caso." },
+  { icon: Zap, title: "Agilidade no atendimento", desc: "Acompanhamento constante e dedicado ao seu caso." },
   { icon: MessageSquare, title: "Comunicação clara", desc: "Sem juridiquês. Você entende cada etapa do seu processo." },
   { icon: Target, title: "Estratégia personalizada", desc: "Cada caso recebe análise individual e plano de ação dedicado." },
   { icon: Lightbulb, title: "Foco em solução prática", desc: "Orientação objetiva para resolver o que realmente importa." },
