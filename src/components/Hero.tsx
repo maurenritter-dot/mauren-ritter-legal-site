@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { MessageCircle, HelpCircle, Globe } from "lucide-react";
+import { MessageCircle, Globe } from "lucide-react";
 
 const WHATSAPP_URL = "https://wa.me/5541991158368?text=Olá,%20gostaria%20de%20falar%20sobre%20um%20assunto%20jurídico.";
 
