@@ -9,12 +9,12 @@ const TermosDeUso = () => (
         Voltar ao início
       </Link>
 
-      <h1 className="font-display text-3xl md:text-4xl font-bold text-primary-foreground mb-8">
+      <h1 className="font-display text-3xl md:text-4xl font-bold text-foreground mb-8">
         Termos de Uso
       </h1>
 
-      <div className="prose prose-invert max-w-none space-y-6 text-primary-foreground/70">
-        <p className="text-sm text-primary-foreground/50">Última atualização: {new Date().toLocaleDateString("pt-BR")}</p>
+      <div className="prose max-w-none space-y-6 text-foreground/70">
+        <p className="text-sm text-foreground/50">Última atualização: {new Date().toLocaleDateString("pt-BR")}</p>
 
         <section>
           <h2 className="text-xl font-display font-semibold text-primary-foreground mb-3">1. Aceitação dos Termos</h2>
