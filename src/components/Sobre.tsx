@@ -22,7 +22,7 @@ const Sobre = () => (
           <img
             src={fotoMauren}
             alt="Mauren Ritter - Advogada"
-            className="w-72 h-80 md:w-80 md:h-96 rounded-2xl object-cover object-top border-2 border-gold/20 shadow-lg"
+            className="w-72 md:w-96 aspect-[3/4] rounded-2xl object-cover object-[center_15%] border-2 border-gold/20 shadow-lg"
           />
         </motion.div>
 
