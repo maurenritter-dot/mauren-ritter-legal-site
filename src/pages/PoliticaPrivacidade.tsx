@@ -17,12 +17,12 @@ const PoliticaPrivacidade = () => (
         <p className="text-sm text-foreground/50">Última atualização: {new Date().toLocaleDateString("pt-BR")}</p>
 
         <section>
-          <h2 className="text-xl font-display font-semibold text-primary-foreground mb-3">1. Introdução</h2>
+          <h2 className="text-xl font-display font-semibold text-foreground mb-3">1. Introdução</h2>
           <p>A <strong>Mauren Ritter Advocacia e Assessoria Jurídica</strong> ("nós") está comprometida com a proteção da sua privacidade. Esta Política de Privacidade descreve como coletamos, usamos, armazenamos e protegemos seus dados pessoais, em conformidade com a Lei Geral de Proteção de Dados (LGPD — Lei nº 13.709/2018).</p>
         </section>
 
         <section>
-          <h2 className="text-xl font-display font-semibold text-primary-foreground mb-3">2. Dados Coletados</h2>
+          <h2 className="text-xl font-display font-semibold text-foreground mb-3">2. Dados Coletados</h2>
           <p>Podemos coletar os seguintes dados pessoais:</p>
           <ul className="list-disc pl-6 space-y-1">
             <li>Nome completo</li>
@@ -33,7 +33,7 @@ const PoliticaPrivacidade = () => (
         </section>
 
         <section>
-          <h2 className="text-xl font-display font-semibold text-primary-foreground mb-3">3. Finalidade do Tratamento</h2>
+          <h2 className="text-xl font-display font-semibold text-foreground mb-3">3. Finalidade do Tratamento</h2>
           <p>Seus dados pessoais são tratados para as seguintes finalidades:</p>
           <ul className="list-disc pl-6 space-y-1">
             <li>Prestação de serviços jurídicos contratados</li>
@@ -44,7 +44,7 @@ const PoliticaPrivacidade = () => (
         </section>
 
         <section>
-          <h2 className="text-xl font-display font-semibold text-primary-foreground mb-3">4. Base Legal</h2>
+          <h2 className="text-xl font-display font-semibold text-foreground mb-3">4. Base Legal</h2>
           <p>O tratamento de dados pessoais é realizado com base nas seguintes hipóteses legais previstas na LGPD:</p>
           <ul className="list-disc pl-6 space-y-1">
             <li>Consentimento do titular</li>
@@ -55,17 +55,17 @@ const PoliticaPrivacidade = () => (
         </section>
 
         <section>
-          <h2 className="text-xl font-display font-semibold text-primary-foreground mb-3">5. Compartilhamento de Dados</h2>
+          <h2 className="text-xl font-display font-semibold text-foreground mb-3">5. Compartilhamento de Dados</h2>
           <p>Seus dados pessoais não serão compartilhados com terceiros, exceto quando necessário para a prestação dos serviços jurídicos contratados, cumprimento de obrigação legal ou mediante autorização expressa do titular.</p>
         </section>
 
         <section>
-          <h2 className="text-xl font-display font-semibold text-primary-foreground mb-3">6. Armazenamento e Segurança</h2>
+          <h2 className="text-xl font-display font-semibold text-foreground mb-3">6. Armazenamento e Segurança</h2>
           <p>Adotamos medidas técnicas e organizacionais adequadas para proteger seus dados pessoais contra acesso não autorizado, perda, alteração ou destruição. Os dados são armazenados pelo tempo necessário ao cumprimento das finalidades descritas nesta política.</p>
         </section>
 
         <section>
-          <h2 className="text-xl font-display font-semibold text-primary-foreground mb-3">7. Direitos do Titular</h2>
+          <h2 className="text-xl font-display font-semibold text-foreground mb-3">7. Direitos do Titular</h2>
           <p>Conforme a LGPD, você tem direito a:</p>
           <ul className="list-disc pl-6 space-y-1">
             <li>Confirmar a existência de tratamento de dados</li>
@@ -78,7 +78,7 @@ const PoliticaPrivacidade = () => (
         </section>
 
         <section>
-          <h2 className="text-xl font-display font-semibold text-primary-foreground mb-3">8. Contato</h2>
+          <h2 className="text-xl font-display font-semibold text-foreground mb-3">8. Contato</h2>
           <p>Para exercer seus direitos ou esclarecer dúvidas sobre o tratamento de seus dados pessoais, entre em contato:</p>
           <ul className="list-none space-y-1">
             <li><strong>E-mail:</strong> contato@maurenritteradv.com.br</li>
