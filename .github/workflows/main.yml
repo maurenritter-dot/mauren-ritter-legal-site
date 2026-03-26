@@ -1,1 +1,12 @@
+name: Executar workflow
 
+on:
+  workflow_dispatch:
+
+jobs:
+  teste:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Mostrar mensagem
+        run: echo "Funcionou!"
