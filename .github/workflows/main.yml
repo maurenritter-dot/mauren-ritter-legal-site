@@ -1,12 +1,13 @@
-name: Executar workflow
+name: Teste simples
 
 on:
   workflow_dispatch:
 
 jobs:
-  teste:
+  executar:
+    name: Rodar teste
     runs-on: ubuntu-latest
 
     steps:
       - name: Mostrar mensagem
-        run: echo "Funcionou!"
+        run: echo "Workflow funcionando!"
